@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* background-color: aqua; */
+    background-image: url(timer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    /* background-color: blue; */
+    color: white;
+    line-height: 1;
+}
+
+.right {
+    /* background-color: rgb(176, 176, 202); */
+    color: black;
+    line-height: 1;
+}
+
+.left-body, .left-body2, .left-body3, .right-body, .right-body2, .right-body3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.countdown-title {
+    color: firebrick;
+}
+
+.offer-title {
+    font-size: 2rem;
+}
+
+.offer-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 48, 104);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.offer-item {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.highlight {
+    background-color: firebrick;
+    color: white;
+    width: 140px;
+    height: 40px;
+}
+
+.right-body {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-body2 .tex1, .right-body2 .tex2, .right-body2 .tex3 {
+    margin-bottom: 10px;
+}
+
+.right-body3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-body3 time {
+    font-size: 1.2rem;
+}
+
+.right-butt {
+    text-align: center;
+}
+
+.buy-now {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: rgb(25, 0, 139);
+}
